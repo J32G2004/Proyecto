@@ -1,0 +1,127 @@
+body{
+  text-align:center;
+  margin-left: 450px;
+  margin-right: 450px;
+  background-color: rgb(227, 230, 197);
+  font-family:fantasy;
+}
+
+nav {
+  float: center; 
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+
+nav ul li {
+  float: left;
+  font-family: copperplate;
+  font-size: 16px;;
+}
+
+nav ul li a {
+  display: block; 
+  padding: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background: rgb(50, 171, 226);
+  color: rgb(255, 255, 255);
+  border: 2px;
+  border-color: #fffcfc;
+}
+
+#contenedor{
+    margin: 0 auto;
+    text-align:left;
+    width: 900px;
+    background-color:#fffcfc;
+    font-size: 25px;
+}
+
+#contenedor .titulo{
+  float:left;
+   width:100%;
+   padding-left: 5px;
+   background-color:rgb(50, 171, 226);
+}
+
+#contenedor{
+    margin-right: 450px;
+    text-align:left;
+    width: 1000px;
+    background-color:#ffffff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.texto{
+  text-align: left;
+  padding-bottom: 5px;
+
+  
+}
+
+.cajas{
+  background-color: rgb(50, 171, 226);
+  border-radius: 10px;
+
+
+}
+
+.derecha{
+  float: right;
+  border: rgb(50, 171, 226);
+  border-style: double;
+  height: 150 px;
+  width: 240px;
+  border-radius: 10px;
+}
+
+.derechap{
+  float: right;
+  border-bottom: rgb(50, 171, 226);
+  border-right:rgb(50, 171, 226) ;
+  border-top: white;
+  border-left: white;
+  border-style: double;
+  height: 120 px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.izquierdap{
+  float: left;
+  border-bottom: rgb(50, 171, 226);
+  border-left:rgb(50, 171, 226) ;
+  border-top: white;
+  border-right: white;
+  border-style: double;
+  height: 120 px;
+  width: 150px;
+  border-radius: 10px;
+  margin-right: 4px;
+}
+
+.izquierda{
+  float: left;
+  border: rgb(50, 171, 226);
+  border-style: double;
+  height: 200px;
+  border-radius: 10px;
+}
+
+#footer{
+  background-color: rgb(50, 171, 226);
+  margin-top: 5cm ;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  text-align: center;
+}
